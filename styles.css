@@ -5,6 +5,7 @@ body{
 }
 
 *{
+  max-width: 1320px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -212,18 +213,21 @@ object-fit: fill;
 
 /* My Current Target */
 .current-target{
-  display: flex;
+  padding: 0 150px;
+  margin-top: 146px;
+
+display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
 }
 .current-target-container{
-  max-width: 1140px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap:24px;
+  
 
 }
 .target-title{
@@ -275,13 +279,16 @@ padding-bottom: 24px;
 
 /* next target */
 .next-target{
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 0 150px;
+  margin-top: 111px;
 }
 .next-target-box{
+  
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 16px;
