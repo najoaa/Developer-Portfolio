@@ -1,0 +1,13 @@
+/* header section */
+.header-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* shared styles */
+.btn-primary{
+  background-color: white;
+  border-color: #0D1321;
+}
