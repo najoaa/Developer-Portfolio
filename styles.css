@@ -196,6 +196,7 @@ border-radius: 16px;
 }
 /* My inspriation */
 .video-container{
+  width: 1140px;
 height: 614px;
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
@@ -208,8 +209,21 @@ bottom: 0;
 min-width: 100%; 
 min-height: 100%;
 object-fit: fill;
-
+margin: 48px 0px;
 }
+
+.video-container{
+  width: 1070px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin: 10px 0px;
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+  padding: 30px;
+  }
 
 /* My Current Target */
 .current-target{
