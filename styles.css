@@ -1,4 +1,4 @@
-/* font */
+font
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
@@ -12,28 +12,21 @@ body{
   padding: 0;
 }
 
-/* shared styles */
-.btn-primary{
-  background-color: white;
-  border-color: #0D1321;
-}
-
 /* header section */
 
-.header-top{
+.header-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   margin-bottom: 40px;
-
 }
-.logo{
+header h1{
   font-size: 28px;
   font-weight: 800;
   margin-left: 150px;
 }
-.btn-primary{
+header button{
   font-size: 20px;
   font-weight: 600;
   color: rgb(13, 19, 33);
@@ -42,15 +35,4 @@ body{
   border: 1px solid;
   border-radius: 8px;
   margin-right: 166px;
-}
-
-/* banner section style starts here */
-.banner-container{
-  width: 1440px;
-  height: 652px;
-  margin-top: 31px;
-  background-image: url(/assets/Hero-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
